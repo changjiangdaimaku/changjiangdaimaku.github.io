@@ -1,0 +1,76 @@
+<figrue class="label">
+    <a href="#" class="label-t"><img src="image/label.jpg" alt=""></a>
+    <a href="#" class="label-t1">
+        <img src="image/label1.jpg" alt="">
+        <div class="label-font">¹º<br/>Îï<br/>³µ</div>
+    </a>
+    <a href="#" class="label-font1">£¤</a>
+    <a href="#" class="label-t2"><img src="image/label2.jpg" alt=""></a>
+    <a href="#" class="label-t2"><img src="image/label3.jpg" alt=""></a>
+    <a href="#" class="label-t2"><img src="image/label4.jpg" alt=""></a>
+    <a href="#" class="label-t3">³ä</a>
+    <a href="#" class="label-t2"><img src="image/label5.jpg" alt=""></a>
+    <a href="#" class="label-t2"><img src="image/label6.jpg" alt=""></a>
+</figrue>
+
+
+.label{
+    width:35px;height:100%;
+    background:#000;
+    position:fixed;
+    right:0;top:0;
+}
+.label-t{
+    width:18px;height:12px;
+    display:block;
+    margin:0 auto;
+    margin-top:160px;
+}
+.label-t1{
+    width:25px;height:106px;
+    display:block;
+    border-top:1px solid #444444;
+    border-bottom:1px solid #444444;
+    margin:0 auto;
+    margin-top:20px;
+}
+.label-t1 img{
+    width:19px;height:15px;
+    display:block;
+    margin:0 auto;
+    margin-top:19px;
+
+}
+.label-font{
+   width:25px;height:45px;
+    text-align:center;
+    margin-top:8px;
+    color:#fff;
+}
+.label-font1{
+    width:35px;height:38px;
+    display:block;
+    text-align:center;
+    line-height:38px;
+    font-size:18px;
+    color:#fff;
+    margin-bottom:18px;
+}
+.label-t2{
+    width:18px;height:12px;
+    display:block;
+    margin:0 auto;
+    margin-bottom:28px;
+}
+.label-t3{
+    width:20px;height:20px;
+    display:block;
+    margin:0 auto;
+    line-height:20px;
+    text-align:center;
+    border:1px solid #fff;
+    border-radius:2px;
+    color:#ffffff;
+    margin-bottom:150px;
+}
+
